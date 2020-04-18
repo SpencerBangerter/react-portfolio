@@ -1,38 +1,91 @@
-import React from 'react'
-import './Nav.css';
-
+import React from "react";
+import "./Nav.css";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Nav() {
-    return (
-        <div>
-            <nav className="navbar navbar-expand-sm navbar-light bg-light">
-                <a className="navbar-brand" href="#">Navbar</a>
-                <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
-                        </li>
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div className="dropdown-menu" aria-labelledby="dropdownId">
-                                <a className="dropdown-item" href="#">Action 1</a>
-                                <a className="dropdown-item" href="#">Action 2</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form className="form-inline my-2 my-lg-0">
-                        <input className="form-control mr-sm-2" type="text" placeholder="Search"/>
-                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
+  const location = useLocation();
+
+  return (
+    <div>
+      <nav className="navbar navbar-expand-sm navbar-light bg-light navbar-right">
+        <button
+          className="navbar-toggler d-lg-none navbar-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="collapsibleNavId">
+          <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
+          <Link to="/React-Portfolio" className="nav-item item">
+              <a
+                className={
+                  location.pathname === "/React-Portfolio"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                href="#"
+              >
+                Home
+              </a>
+            </Link>
+
+            <Link to="/about" className="nav-item item">
+              <a
+                className={
+                  location.pathname === "/about"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                href="#"
+              >
+                About
+              </a>
+            </Link>
+            <Link to="/projects" className="nav-item item">
+              <a
+                className={
+                  location.pathname === "/projects"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                href="#"
+              >
+                Projects
+              </a>
+            </Link>
+            <Link to="/skills" className="nav-item item">
+              <a
+                className={
+                  location.pathname === "/skills"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                href="#"
+              >
+                Skills
+              </a>
+            </Link>
+            <Link to="/contact" className="nav-item item">
+              <a
+                className={
+                  location.pathname === "/contact"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                href="#"
+              >
+                Contact
+              </a>
+            </Link>
+
+          </ul>
         </div>
-    )
+      </nav>
+    </div>
+  );
 }

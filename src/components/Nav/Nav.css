@@ -1,0 +1,15 @@
+.navbar{
+    background: rgba(84,103,117, 0) !important;
+    opacity:.5;
+    transition: 0.5s;
+    justify-content: right !important;
+}
+    
+.navbar:hover{
+    background: rgba(84,103,117, 1) !important;
+    opacity: .9;
+}
+
+.active{
+    font-weight: bolder;
+}
