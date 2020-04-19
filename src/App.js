@@ -6,18 +6,20 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App hero-image">
-      <Nav></Nav>
+      <Nav/>
       <Route path="/React-Portfolio" component={Home} />
       <Route path="/about" component={About} />
       <Route exact path="/projects" component={Projects} />
       <Route path="/skills" component={Skills} />
       <Route path="/contact" component={Contact} />
+    <Footer/>
     </div>
   </BrowserRouter>    );
 }
