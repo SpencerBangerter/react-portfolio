@@ -6,8 +6,8 @@
 }
     
 .navbar:hover{
-    background: rgba(84,103,117, 1) !important;
-    opacity: .9;
+    background: rgba(84,103,117, 0) !important;
+    opacity: 1;
 }
 
 .active{

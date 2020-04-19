@@ -2,10 +2,11 @@ import React from 'react'
 import "./Home.css"
 export default function Home() {
     return (
-        <div>
-            <h1 className="homeContent">Spencer Bangerter</h1>
-            <h3 className="homeContent">Full Stack Web Developer</h3>
-            <h3 className="homeContent">Specializing in Custom Web Applications</h3>
-        </div>
-    )
+<div className="jumbotron jumbotron-fluid float-right">
+  <div className="container mr-5">
+    <h1 className="display-4">Spencer Bangerter</h1>
+    <p className="lead">Web Developer. Adventure Junkie. Father of one.</p>
+
+  </div>
+</div>    )
 }

@@ -22,65 +22,60 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="collapsibleNavId">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
           <Link to="/React-Portfolio" className="nav-item item">
-              <a
+              <p
                 className={
                   location.pathname === "/React-Portfolio"
                     ? "nav-link active"
                     : "nav-link"
                 }
-                href="#"
               >
                 Home
-              </a>
+              </p>
             </Link>
 
             <Link to="/about" className="nav-item item">
-              <a
+              <p
                 className={
                   location.pathname === "/about"
                     ? "nav-link active"
                     : "nav-link"
                 }
-                href="#"
               >
                 About
-              </a>
+              </p>
             </Link>
             <Link to="/projects" className="nav-item item">
-              <a
+              <p
                 className={
                   location.pathname === "/projects"
                     ? "nav-link active"
                     : "nav-link"
                 }
-                href="#"
               >
                 Projects
-              </a>
+              </p>
             </Link>
             <Link to="/skills" className="nav-item item">
-              <a
+              <p
                 className={
                   location.pathname === "/skills"
                     ? "nav-link active"
                     : "nav-link"
                 }
-                href="#"
               >
                 Skills
-              </a>
+              </p>
             </Link>
             <Link to="/contact" className="nav-item item">
-              <a
+              <p
                 className={
                   location.pathname === "/contact"
                     ? "nav-link active"
                     : "nav-link"
                 }
-                href="#"
               >
                 Contact
-              </a>
+              </p>
             </Link>
 
           </ul>
