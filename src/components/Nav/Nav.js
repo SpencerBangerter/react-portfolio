@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import { Link, useLocation } from "react-router-dom";
+import resume from '../../images/Spencer Bangerter Resume.pdf'
 
 export default function Nav() {
   const location = useLocation();
@@ -77,7 +78,11 @@ export default function Nav() {
                 Contact
               </p>
             </Link>
-
+            <Link to={resume} target='_blank' className="nav-item item">
+              <p className="nav-link">
+                Resume
+              </p>
+            </Link>
           </ul>
         </div>
       </nav>
