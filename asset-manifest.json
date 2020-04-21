@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.6f76b8ec.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.6c0f22aa.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6c0f22aa.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.d92c7dfa.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.d92c7dfa.js.map",
+    "static/js/2.4ac5df1b.chunk.js": "/react-portfolio/static/js/2.4ac5df1b.chunk.js",
+    "static/js/2.4ac5df1b.chunk.js.map": "/react-portfolio/static/js/2.4ac5df1b.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.45ae85f44e7945e37dba8dd257754f27.js": "/react-portfolio/precache-manifest.45ae85f44e7945e37dba8dd257754f27.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.6f76b8ec.chunk.css.map": "/react-portfolio/static/css/main.6f76b8ec.chunk.css.map",
+    "static/js/2.4ac5df1b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4ac5df1b.chunk.js.LICENSE.txt",
+    "static/media/Spencer Bangerter Resume.pdf": "/react-portfolio/static/media/Spencer Bangerter Resume.c7a4b94f.pdf",
+    "static/media/App.css": "/react-portfolio/static/media/background.cf7e2c43.jpg",
+    "static/media/bio.jpg": "/react-portfolio/static/media/bio.17b86a9a.jpg",
+    "static/media/bootstrap.svg": "/react-portfolio/static/media/bootstrap.71e42b5a.svg",
+    "static/media/css-3.svg": "/react-portfolio/static/media/css-3.d3ad67fa.svg",
+    "static/media/express.svg": "/react-portfolio/static/media/express.53051603.svg",
+    "static/media/gitimage.svg": "/react-portfolio/static/media/gitimage.617870e4.svg",
+    "static/media/html-5.svg": "/react-portfolio/static/media/html-5.24845c5c.svg",
+    "static/media/javascript.svg": "/react-portfolio/static/media/javascript.87711407.svg",
+    "static/media/jquery.svg": "/react-portfolio/static/media/jquery.6ff17bd2.svg",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.8cc2d3a8.svg",
+    "static/media/materializecss.svg": "/react-portfolio/static/media/materializecss.fe397f2a.svg",
+    "static/media/mongodb.svg": "/react-portfolio/static/media/mongodb.2aa7f7b5.svg",
+    "static/media/mysql.svg": "/react-portfolio/static/media/mysql.dd2a5a35.svg",
+    "static/media/nodejs.svg": "/react-portfolio/static/media/nodejs.f434bfbb.svg",
+    "static/media/notes.png": "/react-portfolio/static/media/notes.253b6e25.png",
+    "static/media/password.png": "/react-portfolio/static/media/password.a15614c4.png",
+    "static/media/quizzer.png": "/react-portfolio/static/media/quizzer.7cc694bd.png",
+    "static/media/saltCityServiceLogo-01.png": "/react-portfolio/static/media/saltCityServiceLogo-01.ab1dbbd0.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.58f2f1fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d92c7dfa.js",
+    "static/js/2.4ac5df1b.chunk.js",
+    "static/css/main.6f76b8ec.chunk.css",
+    "static/js/main.6c0f22aa.chunk.js"
+  ]
+}
